@@ -1,2 +1,2 @@
 #!/bin/bash
-find . -iname HOLBERTON*
+find . -name HOLBERTON*
