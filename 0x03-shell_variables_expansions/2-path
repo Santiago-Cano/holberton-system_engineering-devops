@@ -1,2 +1,2 @@
 #!/bin/bash
-printf $PATH | mkdir action
+export PATH=$PATH:/action
