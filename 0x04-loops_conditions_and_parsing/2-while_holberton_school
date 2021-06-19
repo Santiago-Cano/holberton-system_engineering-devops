@@ -1,6 +1,8 @@
 #!/usr/bin/env bash
 # This script prints Holberton School ten times.
 
-c=1
-while [ $c -le 10 ]; do echo "Holberton School"
-			c=$(( $c + 1)); done
+c=0
+while ((c < 10))
+do echo "Holberton School"
+((c++))
+done
