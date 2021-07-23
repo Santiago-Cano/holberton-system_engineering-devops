@@ -1,0 +1,19 @@
+#!/usr/bin/env bash
+# This script prints numbers from 1 to 20 but,
+# on the 4th iteration displays 4 and then bad luck from China
+# on the 9th iteration displays 9 and then bad luck from Japan
+# on the 17th iteration displays 17 and then bad luck from Italy
+
+c=1
+while ((c <= 20))
+do echo "$c"
+   case $c in
+   4) echo "bad luck from China"
+   ;;
+   9) echo "bad luck from Japan"
+   ;;
+   17) echo "bad luck from Italy"
+   ;;
+   esac
+((c++))
+done
