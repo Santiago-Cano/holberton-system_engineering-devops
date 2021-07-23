@@ -1,0 +1,12 @@
+#!/usr/bin/env bash
+# This script prints Holberton School ten times, but on the 9th iteration displays Hi on a new line
+
+c=0
+while ((c < 10))
+do echo "Holberton School"
+if [ $c -eq 8 ]
+then
+echo "Hi"
+fi
+((c++))
+done
