@@ -15,7 +15,7 @@ then
 		echo "holbertonschool file is not empty"
 	else
 		echo "holbertonschool file is empty"
-	elif
+	fi
 
 	if [ -f $c ]
 	then
