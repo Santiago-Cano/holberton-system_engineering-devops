@@ -1,5 +1,5 @@
 #!/usr/bin/env bash
-# This script prints Holberton School ten times, but
+# This script prints Best School ten times, but
 # on the 4th iteration prints bad luck
 # on the 8th iteration prints good luck
 
@@ -13,7 +13,7 @@ do
       then
 	  echo "bad luck"
       else
-	  echo "Holberton School"
+	  echo "Best School"
       fi
       ((c++))
 done
