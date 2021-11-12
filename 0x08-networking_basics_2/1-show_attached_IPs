@@ -1,0 +1,4 @@
+#!/usr/bin/env bash
+# This script displays active IPv4 IPS
+
+ifconfig -a | grep "inet addr" | cut -d " " -f12 | cut -d ":" -f2
